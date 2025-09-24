@@ -1,33 +1,5 @@
 import gradio as gr
-
-
-def index_tts_ui():
-    gr.Markdown(
-        """
-    # Index tts
-    
-    This is a template extension. Replace this content with your extension's functionality.
-    
-    To use it, simply modify this UI and add your custom logic.
-    """
-    )
-    
-    # Add your UI components here
-    # Example:
-    # with gr.Row():
-    #     with gr.Column():
-    #         input_text = gr.Textbox(label="Input")
-    #         button = gr.Button("Process")
-    #     with gr.Column():
-    #         output_text = gr.Textbox(label="Output")
-    # 
-    # button.click(
-    #     fn=your_processing_function,
-    #     inputs=[input_text],
-    #     outputs=[output_text],
-    #     api_name="index_tts",
-    # )
-
+from .ui import index_tts_ui
 
 def extension__tts_generation_webui():
     index_tts_ui()
