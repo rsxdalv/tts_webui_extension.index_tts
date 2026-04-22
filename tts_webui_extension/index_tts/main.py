@@ -17,6 +17,7 @@ def extension__tts_generation_webui():
         "website": "https://github.com/rsxdalv/tts_webui_extension.index_tts",
         "extension_website": "https://github.com/rsxdalv/tts_webui_extension.index_tts",
         "extension_platform_version": "0.0.1",
+        "proxy": "native"
     }
 
 

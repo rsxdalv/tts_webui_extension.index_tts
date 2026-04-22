@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tts_webui_extension.index_tts"
-version = "0.0.2"
+version = "0.0.3"
 description = "A template extension for TTS Generation WebUI"
 readme = "README.md"
 authors = [
@@ -17,7 +17,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "tts-webui.index-tts>=2.0.0",
+    "tts-webui.index-tts>=2.0.1",
 ]
 
 [project.urls]
